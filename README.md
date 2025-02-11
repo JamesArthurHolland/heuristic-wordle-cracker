@@ -32,9 +32,9 @@ For example, the input for the included screenshot is:
 
 ```
 a0l0e1r2t0
+All the greys have a 0, e is 1 because it is in the word but the wrong place, and r is 2 because it is in the correct place.
 ```
 
-All the greys have a 0, e is 1 because it is in the word but the wrong place, and r is in the correct place.
 
 ```bash
 Suggestion: alert 
