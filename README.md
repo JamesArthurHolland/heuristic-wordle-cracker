@@ -41,7 +41,7 @@ and r is 2 because it is in the correct place.
 Suggestion: alert 
 Enter input: a0l0e1r2t0
 Suggestion: score 
-Enter input: 
+Enter input: (we don't need to because it's been solved)
 ```
 
 ## How it works
