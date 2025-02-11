@@ -28,8 +28,13 @@ In word but not in position (orange): 1
 In word and in position (green): 2
 ```
 
-For example, the input for the included  is a0l0e1r2t0, all the greys have a 0, e is 1 because
-it is in the word but the wrong place, and r is in the correct place.
+For example, the input for the included screenshot is:
+
+```
+a0l0e1r2t0
+```
+
+All the greys have a 0, e is 1 because it is in the word but the wrong place, and r is in the correct place.
 
 ```bash
 Suggestion: alert 
