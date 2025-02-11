@@ -46,12 +46,14 @@ Enter input: (we don't need to because it's been solved)
 
 ## How it works
 
-I needed dictionary list to filter only the 5 letter words in the dictionary. This would be trivial to filter for.
+I needed a dictionary list, to filter only the 5 letter words in the dictionary.
 
-Unfortunately this was extremely hard to find as many of the dictionary lists available online are filled with non-words 
+This would be trivial to filter for, using a script.
+
+Unfortunately this was extremely hard to find, as many of the dictionary lists available online are filled with non-words 
 and special characters, as they are typically used for password cracking.
 
-I found a list of 5 letter words that wordle user here:
+I found a list of 5 letter words that wordle uses here:
 
 [Wordle list](https://gist.githubusercontent.com/cfreshman/a03ef2cba789d8cf00c08f767e0fad7b/raw/28804271b5a226628d36ee831b0e36adef9cf449/wordle-answers-alphabetical.txt)
 
@@ -66,3 +68,6 @@ As more input is processed, the WordList gets reduced.
 The word suggester finds the best word by recurrently:
  - counting up how common each letter is in the WordList, repeated letters within a word are not counted.
  - then finding the word with the highest score based on the count of letters.
+
+This approach maximises the amount of words removed from the WordList with each guess, until you're left with the answer.   
+
