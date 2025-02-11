@@ -37,7 +37,7 @@ and r is 2 because it is in the correct place.
 ```
 
 
-```bash
+```
 Suggestion: alert 
 Enter input: a0l0e1r2t0
 Suggestion: score 
