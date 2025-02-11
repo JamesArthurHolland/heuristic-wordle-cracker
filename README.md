@@ -63,7 +63,7 @@ The game state struct starts with a WordList of all possible words.
 
 As more input is processed, the WordList gets reduced.
 
-##### The heuristic
+#### The heuristic
 
 The word suggester finds the best word by recurrently:
  - counting up how common each letter is in the WordList, repeated letters within a word are not counted.
