@@ -64,7 +64,7 @@ func CalculateLetterFrequencies(words []string) map[string]int {
 func CalculateWordLetterFrequencySum(word string, frequencies map[string]int) int {
 	chars := []rune(word)
 	frequencySum := 0
-	letterCache := make(map[string]struct{}) // TODO document why you must not include repeated letters in the total.
+	letterCache := make(map[string]struct{})
 
 	for i := 0; i < len(chars); i++ {
 		char := string(chars[i])
