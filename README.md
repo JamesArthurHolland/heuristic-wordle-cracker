@@ -65,6 +65,7 @@ As more input is processed, the WordList gets reduced.
 The word suggester finds the best word by recurrently:
  - counting up how common each letter is in the WordList, repeated letters within a word are not counted.
  - then finding the word with the highest score based on the count of letters.
+ - parsing the input and removing all the words that don't correspond to the input.
 
 This approach maximises the amount of words removed from the WordList with each guess, until you're left with the answer.   
 
