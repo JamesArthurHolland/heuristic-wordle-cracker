@@ -10,17 +10,18 @@ import (
 )
 
 func Run(state *game_state.GameState) {
-	fmt.Printf("Suggestion: %s \n", state.SuggestNextWord())
 	for {
+		suggestedWord := state.SuggestNextWord()
+		fmt.Printf("Suggestion: %s \n", suggestedWord)
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Print("Enter input: ")
 		givenInput, _ := reader.ReadString('\n')
-		row, err := input.HandleInput(givenInput)
+		row, err := input.HandleInput(suggestedWord, givenInput)
 		if err != nil {
 			log.Println(err)
 			continue
 		}
 		state.ProcessRow(row)
-		fmt.Printf("Suggestion: %s \n", state.SuggestNextWord())
+
 	}
 }

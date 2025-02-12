@@ -1,7 +1,6 @@
 # Wordle Solver
 
 ![workingscreenshot.png](docs%2Fworkingscreenshot.png)
-
 ## To build the project:
 
 ```bash
@@ -18,9 +17,9 @@ chmod +x wordlesolver
 
 The program will give you an initial suggestion. It will always be "alert".
 
-It will ask for input. The input is put in without any spaces.
+It will ask for input. The input is to be entered without any spaces.
 
-You input the letter, followed by the number representing the feedback given by wordle.
+You input numbers representing the feedback given by wordle.
 
 ```
 Not in word (grey): 0
@@ -31,17 +30,14 @@ In word and in position (green): 2
 For example, the input for the included screenshot is:
 
 ```
-a0l0e1r2t0
-All the greys have a 0 following them, e is 1 because it is in the word but the wrong place
-and r is 2 because it is in the correct place.
-```
-
-
-```
 Suggestion: alert 
-Enter input: a0l0e1r2t0
-Suggestion: score 
-Enter input: (we don't need to because it's been solved)
+Enter input: 10010
+Suggestion: sonar 
+Enter input: 00011
+Suggestion: braid 
+Enter input: 01122
+Suggestion: rapid
+...
 ```
 
 ## How it works

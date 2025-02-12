@@ -7,8 +7,9 @@ import (
 )
 
 func TestInput(t *testing.T) {
-	givenInput := "h0o2a1r0d0"
-	row, err := input.HandleInput(givenInput)
+	suggestionWord := "hoard"
+	givenInput := "02100"
+	row, err := input.HandleInput(suggestionWord, givenInput)
 
 	log.Println(row)
 	log.Println(err)
