@@ -54,13 +54,13 @@ I found a list of 5 letter words that wordle uses here:
 
 [Wordle list](https://gist.githubusercontent.com/cfreshman/a03ef2cba789d8cf00c08f767e0fad7b/raw/28804271b5a226628d36ee831b0e36adef9cf449/wordle-answers-alphabetical.txt)
 
-### Word suggester
+## Word suggester
 
 The game state struct starts with a WordList of all possible words.
 
 As more input is processed, the WordList gets reduced.
 
-#### The heuristic
+## The heuristic
 
 The word suggester finds the best word by recurrently:
  - counting up how common each letter is in the WordList, repeated letters within a word are not counted.
