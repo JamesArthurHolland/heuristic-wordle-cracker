@@ -1,6 +1,7 @@
 # Wordle Solver
 
 ![workingscreenshot.png](docs%2Fworkingscreenshot.png)
+
 ## To build the project:
 
 ```bash
