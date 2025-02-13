@@ -36,9 +36,12 @@ Enter input: 10010
 Suggestion: sonar 
 Enter input: 00011
 Suggestion: braid 
-Enter input: 01122
-Suggestion: rapid
+Enter input: 11100
+Suggestion: rumba 
 ...
+
+No need to enter any more input as it's been solved!
+
 ```
 
 ## How it works
@@ -50,7 +53,8 @@ This would be trivial to filter for, using a script.
 Unfortunately this was extremely hard to find, as many of the dictionary lists available online are filled with non-words 
 and special characters, as they are typically used for password cracking.
 
-I found a list of 5 letter words that wordle uses here:
+I found a list of 5 letter words that wordle uses here, I'm not sure whether this is all of the 5 letter words in the English
+dictionary or not:
 
 [Wordle list](https://gist.githubusercontent.com/cfreshman/a03ef2cba789d8cf00c08f767e0fad7b/raw/28804271b5a226628d36ee831b0e36adef9cf449/wordle-answers-alphabetical.txt)
 
