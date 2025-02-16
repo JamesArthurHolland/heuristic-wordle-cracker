@@ -2,16 +2,22 @@
 
 ![workingscreenshot.png](docs%2Fworkingscreenshot.png)
 
-## To build the project:
+## Run as docker container
+
+The wordle solver runs as an docker container.
+
+So you can use it even if you don't have the Go toolchain installed.
 
 ```bash
-go build -o wordlesolver ./cmd/main.go
-chmod +x wordlesolver
+./script/build_and_run.sh
 ```
 
-## To run:
+#### For goland / terminal users:
+
+You can just build and run the main file in the run configuration. There's no special environment variables needed.
+
 ```bash
-./wordlesolver
+./cmd/main.go
 ```
 
 ## To use:
@@ -20,7 +26,7 @@ The program will give you an initial suggestion. It will always be "alert".
 
 It will ask for input. The input is to be entered without any spaces.
 
-You input numbers representing the feedback given by wordle.
+You will input numbers which represent the feedback given by wordle.
 
 ```
 Not in word (grey): 0
