@@ -1,5 +1,9 @@
 # Wordle Solver
 
+Wordle is a popular online word game by the NY Times. The objective is to guess a 5 letter word in 6 tries.
+
+Link to the game: [Wordle](https://www.nytimes.com/games/wordle/index.html)
+
 ![workingscreenshot.png](docs%2Fworkingscreenshot.png)
 
 ## Run as docker container
