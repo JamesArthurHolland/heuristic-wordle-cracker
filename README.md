@@ -12,7 +12,7 @@ So you can use it even if you don't have the Go toolchain installed.
 ./script/build_and_run.sh
 ```
 
-#### For goland / terminal users:
+## For goland / terminal users:
 
 You can just build and run the main file in the run configuration. There's no special environment variables needed.
 
